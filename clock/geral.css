@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	background: #2e2e1f;
+	font-family: 'Roboto', sans-serif;
+}
+
+.principal {
+	width: 400px;
+	height: 100%;
+	background: #0f0f0a;
+}
+
+.btn-play {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: #ff0000;
+	cursor: pointer;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	margin: 30px auto 0;
+}
+
+.btn-play i {
+	line-height: 100px;
+	margin-left: 5px;
+}
+
+.div-timer {
+	text-align: center;
+	font-size: 60px;
+	padding: 30px 0;
+	color: #fff;
+}
+
+.btn-actions {
+	text-align: center;
+}
+
+.btn-actions button {
+	width: 100px;
+	height: 30px;
+	padding: 2px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	background: #ff0000;
+	border: 1px solid #ff0000;
+	border-radius: 2px;
+	margin: 0 10px;
+}
+
+.btn-play:hover, .btn-actions button:hover {
+	background: #ff3333;
+}
+
+#marcacoes {
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	height: 370px;
+	overflow: auto;
+}
+
+.rodape {
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+}
+
+.rodape a {
+	color: #fefefe;
+	text-decoration: none;
+}
